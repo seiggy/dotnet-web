@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:1.0-sdk-projectjson
+FROM microsoft/dotnet:1.1-sdk
 
 RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
 RUN apt-get install -y nodejs
